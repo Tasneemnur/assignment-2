@@ -7,14 +7,15 @@ body{
     font-family: 'Work Sans';
 }
 
+/* header and banner style */
+
 .container-1{
-    padding: 50px 150px 20px;
+    padding: 50px 200px 20px;
     background: rgba(255, 144, 14, 0.1);
 }
 .header{
     display: flex;
     justify-content: space-between;
-   /* padding: 50px 150px; */
 }
 .logo{
     font-size: 27px;
@@ -56,3 +57,68 @@ body{
     width: 100%;
     margin-top: 28px;
 }
+
+/* features style */
+
+.features{
+    display: flex;
+    padding: 50px 150px 20px;
+    justify-content: center;
+    align-items: center;
+    margin: 0px 90px;
+    gap: 50px;
+}
+.feature-1{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+}
+.image img{
+    width: 248px;
+    height: 248px;
+}
+.feature-2 h2{
+    color: #727272;
+    font-size: 30px;
+}
+.black{
+    color: #131313;
+}
+.orange{
+    color: #FF900E;
+}
+
+/* special features */
+
+.special-features{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 50px 200px 20px;
+    column-gap: 70px;
+}
+.architect img{
+   width: 100%;
+}
+.box{
+/* border: 1px solid black; */
+padding: 15px 20px;
+box-shadow: 2px 3px 8px 1px rgb(230, 230, 230);
+border-radius: 5px;
+margin-bottom: 20px;
+}
+.description h2{
+    width: 60%;
+    border-left: 5px solid #FF900E;
+    padding: 5px 10px;
+    font-size: 30px;
+}
+.box p{
+    font-size: 13px;
+    color: #727272;
+    margin-top: 10px;
+    margin-bottom: 12px;
+}
+
+
+
+
