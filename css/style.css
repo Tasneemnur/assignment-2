@@ -62,11 +62,11 @@ body{
 
 .features{
     display: flex;
-    padding: 50px 150px 20px;
+    padding: 50px 220px 20px;
     justify-content: center;
     align-items: center;
-    margin: 0px 90px;
-    gap: 50px;
+    /* margin: 0px 90px; */
+    gap: 40px;
 }
 .feature-1{
     display: grid;
@@ -74,10 +74,11 @@ body{
     gap: 10px;
 }
 .image img{
-    width: 248px;
-    height: 248px;
+    width: 235px;
+    height: 235px;
 }
 .feature-2 h2{
+    width: 70%;
     color: #727272;
     font-size: 30px;
 }
