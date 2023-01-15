@@ -62,7 +62,7 @@ body{
 
 .features{
     display: flex;
-    padding: 50px 220px 65px;
+    padding: 50px 200px 75px;
     justify-content: center;
     align-items: center;
     /* margin: 0px 90px; */
@@ -74,11 +74,11 @@ body{
     gap: 10px;
 }
 .image img{
-    width: 235px;
-    height: 235px;
+    width: 230px;
+    height: 230px;
 }
 .feature-2 h2{
-    width: 70%;
+    width: 75%;
     color: #727272;
     font-size: 30px;
 }
@@ -176,6 +176,45 @@ margin-bottom: 20px;
     width: 30px;
     height: 30px;
 }
+
+/* Our members style */
+
+.container-2{
+    padding: 50px 200px 20px;
+}
+.title{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 30px;
+}
+#members{
+    margin: 20px 0px;
+  }
+  #card{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .cardp{
+    text-align: center;
+    padding: 30px 45px;
+    box-shadow: 2px 3px 8px 1px rgb(189, 185, 185);
+  }
+  .cardp:hover{
+    box-shadow: -2px -3px 8px 1px rgb(189, 185, 185);
+  
+  }
+  .cardp img{
+    width: 180px;
+  }
+  .cardp h1{
+    font-size: 20px;
+    margin: 15px 0px;
+  }
+  .cardp p{
+    font-size: 15px;
+  }
+
+  /* our sponsors style */
 
 .sponsors{
     padding: 50px 200px 20px;
