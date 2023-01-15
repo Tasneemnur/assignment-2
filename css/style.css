@@ -40,8 +40,8 @@ body{
 .main-para{
     font-size: 13px;
     color: #727272;
-    margin-top: 12px;
-    margin-bottom: 20px;
+    margin-top: 15px;
+    margin-bottom: 22px;
 }
 .primary-btn{
     width: 126px;
@@ -55,14 +55,14 @@ body{
 }
 .container-1 img{
     width: 100%;
-    margin-top: 28px;
+    margin-top: 30px;
 }
 
 /* features style */
 
 .features{
     display: flex;
-    padding: 50px 220px 20px;
+    padding: 50px 220px 65px;
     justify-content: center;
     align-items: center;
     /* margin: 0px 90px; */
@@ -94,8 +94,8 @@ body{
 .special-features{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    padding: 50px 200px 20px;
-    column-gap: 70px;
+    padding: 50px 200px 0px;
+    column-gap: 100px;
 }
 .architect img{
    width: 100%;
@@ -119,6 +119,102 @@ margin-bottom: 20px;
     margin-top: 10px;
     margin-bottom: 12px;
 }
+.button{
+    width: 246px;
+    height: 150px;
+    border-radius: 5px ;
+    background-color: #FF900E;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: 490px;
+    bottom: 147px;
+}
+.button h1{
+    font-size: 48px;
+}
+.button p{
+    font-size: 20px;
+}
+
+/* facts style */
+
+.facts{
+    padding: 0px 200px 20px;
+}
+.fact-description{
+    width: 45%;
+}
+.fact-description h2{
+       font-size: 30px;
+}
+.fact{
+    display: flex;
+    justify-content: space-around;
+    margin: 55px 0px;
+}
+.important-fact{
+    border: 2px solid #FF900E;
+    text-align: center;
+    border-radius: 5px;
+    width: 145px;
+    padding: 25px 0px;
+}
+.important-fact h1{
+    margin: 5px 0px;
+    color: #424242;
+}
+.important-fact p{
+    font-size: 13px;
+    color: #727272;
+    font-weight: 700;
+}
+.important-fact img{
+    width: 30px;
+    height: 30px;
+}
+
+.sponsors{
+    padding: 50px 200px 20px;
+}
+.sponsors-description{
+    text-align: center;
+    margin: 0px 270px
+}
+.sponsors-description h2{
+    font-size: 30px;
+}
+
+.sponsors-logo{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.sponsor img{
+    width: 97px;
+    height: 30px;
+    filter: grayscale(10);
+}
+
+/* footer style */
+
+footer{
+    padding: 50px 200px 150px;
+}
+.copyright{
+    padding: 30px 0px;
+    font-size: 15px;
+    color: #424242;
+    text-align: center;
+    background: rgba(255, 144, 14, 0.1);
+}
+
+
+
 
 
 
